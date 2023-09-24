@@ -1,0 +1,13 @@
+.map-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    color: #fff;
+    font-weight: normal;
+    background: none;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+  }
