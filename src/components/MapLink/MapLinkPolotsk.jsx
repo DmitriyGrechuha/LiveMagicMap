@@ -1,7 +1,7 @@
 import React from 'react';
-import '../style/MapLinkPolotsk.css';
-import '../style/MapButton.css';
-import Pointer from '../components/Pointer';
+import '../../style/MapLinkStyle/MapLinkPolotsk.css';
+import '../../style/MapLinkStyle/MapButton.css';
+import Pointer from './Pointer';
 function MapLinkPolotsk() {
   return (
     <>

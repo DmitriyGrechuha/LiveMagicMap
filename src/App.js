@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import mapImage from './images/bg-map.png';
-import MapLinkPolotsk from './components/MapLinkPolotsk';
-import MapLinkVitebsk from './components/MapLinkVitebsk';
-import MapLinkMogilev from './components/MapLinkMogilev';
-import MapLinkMinsk from './components/MapLinkMinsk';
-import MapLinkGrodno from './components/MapLinkGrodno';
-import MapLinkGomel from './components/MapLinkGomel';
-import MapLinkBrest from './components/MapLinkBrest';
+import MapLinkPolotsk from './components/MapLink/MapLinkPolotsk';
+import MapLinkVitebsk from './components/MapLink/MapLinkVitebsk';
+import MapLinkMogilev from './components/MapLink/MapLinkMogilev';
+import MapLinkMinsk from './components/MapLink/MapLinkMinsk';
+import MapLinkGrodno from './components/MapLink/MapLinkGrodno';
+import MapLinkGomel from './components/MapLink/MapLinkGomel';
+import MapLinkBrest from './components/MapLink/MapLinkBrest';
 
 function App() {
   return (

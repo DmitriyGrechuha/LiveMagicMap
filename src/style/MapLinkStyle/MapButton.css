@@ -11,3 +11,11 @@
     position: absolute;
     cursor: pointer;
   }
+
+  .map-button:hover > .Pointer {
+    height: 7vh;
+    box-shadow: 0 7px 5px steelblue;
+    border: 1px solid steelblue;
+    background-color: rgb(162, 209, 248);
+    transition: all 0.25s ease-out;
+  }
