@@ -2,16 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color:steelblue;
+  background-color: steelblue;
+  display: flex;
 }
 
 .mapImage {
   width: auto;
   height: 100%;
- 
 }
 
 .map {
   position: relative;
   height: 100vh;
+}
+
+.articleBlock {
+  margin: 10px 10px 10px 0;
+  padding: 5px 15px 15px;
+  border-style: groove;
+  background-color: rgb(116, 164, 204);
+  height: auto;
+}
+
+.articleMainPage {
+  font-family: BlinkMacSystemFont;
+  color: #fff;
+  font-weight: normal;
+  text-indent: 30px;
+  text-align: justify;
+  font-size: 2.5vh;
+  text-shadow: 0 8px 5px steelblue;
+}
+
+.articleMainPage:first-letter {
+  color: rgb(243, 10, 10);
+  font-size: x-large;
 }
