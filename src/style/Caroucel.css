@@ -1,11 +1,10 @@
 p {
   font-family: BlinkMacSystemFont;
   color: #fff;
-  font-weight: normal;
   font-size: 2.2vh;
-  text-shadow: 0 8px 5px steelblue;
+  letter-spacing: 1px;
 }
 
 .caroucel-caption {
-  bottom: -1.5 rem;
+  bottom: -1.75rem;
 }

@@ -25,7 +25,7 @@ function CarouselMainPage() {
         <img className="d-block w-100" src={ThirdImage} alt="Third slide" />
         <Carousel.Caption>
           <p>
-            Памятник У-краткой (единственной в мире), г. Полоцк
+            Памятник У-краткой, г. Полоцк
           </p>
         </Carousel.Caption>
       </Carousel.Item>
