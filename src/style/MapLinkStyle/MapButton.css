@@ -1,22 +1,32 @@
 .map-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 3vh;
-    color: #fff;
-    text-shadow: 0 8px 5px steelblue;
-    font-weight: normal;
-    background: none;
-    border: none;
-    position: absolute;
-    cursor: pointer;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vh;
+  color: #fff;
+  text-shadow: 0 8px 5px steelblue;
+  font-weight: bolder;
+  background: none;
+  border: none;
+  padding-left: 0.8vh;
+  position: absolute;
+  cursor: pointer;
+}
 
-  .map-button:hover > .Pointer {
-    height: 7vh;
-    box-shadow: 0 7px 5px steelblue;
-    border: 1px solid steelblue;
-    background-color: rgb(162, 209, 248);
-    transition: all 0.26s ease-out;
-  }
+.map-button:hover > .Pointer {
+  height: 7vh;
+  box-shadow: 0 7px 5px steelblue;
+  border: 1px solid steelblue;
+  background-color: rgb(162, 209, 248);
+  transition: all 0.26s ease-out;
+}
+
+.map-button:hover {
+  color: red;
+  font-size: 3.5vh;
+  font-weight: bolder;
+  padding-left: 0;
+  transition: all 0.26s ease-out;
+}
+

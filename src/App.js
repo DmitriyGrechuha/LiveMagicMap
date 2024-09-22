@@ -1,48 +1,29 @@
-import React from 'react';
-import './App.css';
-import mapImage from './images/bg-map.png';
-import MapLinkPolotsk from './components/MapLink/MapLinkPolotsk';
-import MapLinkVitebsk from './components/MapLink/MapLinkVitebsk';
-import MapLinkMogilev from './components/MapLink/MapLinkMogilev';
-import MapLinkMinsk from './components/MapLink/MapLinkMinsk';
-import MapLinkGrodno from './components/MapLink/MapLinkGrodno';
-import MapLinkGomel from './components/MapLink/MapLinkGomel';
-import MapLinkBrest from './components/MapLink/MapLinkBrest';
-import CarouselMainPage from './components/Carousel';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainPageBuild from "./components/Pages/mainPage";
+import PagePolotskBuild from "./components/Pages/PagePolotskBuild";
+import PageVitebskBuild from "./components/Pages/PageVitebskBuild";
+import PageMogilevBuild from "./components/Pages/PageMogilevBuild";
+import PageMinskBuild from "./components/Pages/PageMinskBuild";
+import PageGrodnoBuild from "./components/Pages/PageGrodnoBuild";
+import PageGomelBuild from "./components/Pages/PageGomelBuild";
+import PageBrestBuild from "./components/Pages/PageBrestBuild";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <div className="map">
-        <img src={mapImage} className="mapImage" alt=" " />
-        <MapLinkPolotsk />
-        <MapLinkVitebsk />
-        <MapLinkMogilev />
-        <MapLinkMinsk />
-        <MapLinkGrodno />
-        <MapLinkGomel />
-        <MapLinkBrest />
-      </div>
-      <div className="articleBlock">
-        <article className="articleMainPage">
-          Человек издревле стремился к путешествиям. Его интерес к изучению
-          окружающего мира постепенно расширялся от места его обитания до
-          соседних территорий. С рождением кораблестроения человек смог
-          расширить горизонты своих путешествий до открытия новых территорий,
-          стран и материков. Благодаря упорству и любознательности было
-          совершено много открытий путешественниками, имена которых вошли в
-          историю.
-        </article>
-        <article className="articleMainPage">
-          На сегодняшний день путешествия не потеряли своей актуальности,
-          несмотря на то, что на Земле почти не осталось мест, куда не ступала
-          нога человека. И любой желающий может себе позволить отправиться,
-          пусть и в небольшое, но интересное путешествие, например, по своей
-          стране, и взглянуть на привычные вещи по новому.
-        </article>
-        <CarouselMainPage />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPageBuild />} />
+        <Route path="Polotsk" element={<PagePolotskBuild />} />
+        <Route path="Vitebsk" element={<PageVitebskBuild />} />
+        <Route path="Mogilev" element={<PageMogilevBuild />} />
+        <Route path="Minsk" element={<PageMinskBuild />} />
+        <Route path="Grodno" element={<PageGrodnoBuild />} />
+        <Route path="Gomel" element={<PageGomelBuild />} />
+        <Route path="Brest" element={<PageBrestBuild />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
