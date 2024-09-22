@@ -21,7 +21,9 @@ function MainPageBuild() {
         <MapLinkMinsk />
         <MapLinkGrodno />
         <MapLinkGomel />
-        <MapLinkBrest />
+        <Link to="Brest">
+          <MapLinkBrest />
+        </Link>
       </div>
       <div className="articleBlock">
         <div className="titleStick">Live Magic Map</div>
