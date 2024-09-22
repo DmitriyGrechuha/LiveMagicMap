@@ -15,12 +15,24 @@ function MainPageBuild() {
     <div className="mainPage">
       <div className="map">
         <img src={mapImage} className="mapImage" alt="image" />
-        <MapLinkPolotsk />
-        <MapLinkVitebsk />
-        <MapLinkMogilev />
-        <MapLinkMinsk />
-        <MapLinkGrodno />
-        <MapLinkGomel />
+        <Link to="Polotsk">
+          <MapLinkPolotsk />
+        </Link>
+        <Link to="Vitebsk">
+          <MapLinkVitebsk />
+        </Link>
+        <Link to="Mogilev">
+          <MapLinkMogilev />
+        </Link>
+        <Link to="Minsk">
+          <MapLinkMinsk />
+        </Link>
+        <Link to="Grodno">
+          <MapLinkGrodno />
+        </Link>
+        <Link to="Gomel">
+          <MapLinkGomel />
+        </Link>
         <Link to="Brest">
           <MapLinkBrest />
         </Link>
