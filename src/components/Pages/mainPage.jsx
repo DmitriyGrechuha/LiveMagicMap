@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../../src/style/mainPage.css";
-import mapImage from "../../images/bg-map.png";
+import mapImage from "../../images/bg-map-.png";
 import MapLinkPolotsk from "../MapLink/MapLinkPolotsk";
 import MapLinkVitebsk from "../MapLink/MapLinkVitebsk";
 import MapLinkMogilev from "../MapLink/MapLinkMogilev";
