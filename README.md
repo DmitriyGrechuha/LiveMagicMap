@@ -1,3 +1,5 @@
+Это сайт по обзору достопримечательностей городов Беларуси с возможностью просмотра как в конкретном городе, так и по категориям. Для удобства есть возможность быстрого выбора города на карте. Данный проект пока находится в разработке. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
