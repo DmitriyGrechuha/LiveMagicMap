@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../../src/style/mainPage.css";
-import mapImage from "../../images/bg-map-.png";
+import mapImage from "../../images/mainPage/bg-map-.png";
 import MapLinkPolotsk from "../MapLink/MapLinkPolotsk";
 import MapLinkVitebsk from "../MapLink/MapLinkVitebsk";
 import MapLinkMogilev from "../MapLink/MapLinkMogilev";
@@ -9,12 +8,13 @@ import MapLinkMinsk from "../MapLink/MapLinkMinsk";
 import MapLinkGrodno from "../MapLink/MapLinkGrodno";
 import MapLinkGomel from "../MapLink/MapLinkGomel";
 import MapLinkBrest from "../MapLink/MapLinkBrest";
+import "../../../src/style/mainPage.css";
 
 function MainPageBuild() {
   return (
     <div className="mainPage">
       <div className="map">
-        <img src={mapImage} className="mapImage" alt="image" />
+        <img src={mapImage} className="mapImage" alt="img" />
         <Link to="Polotsk">
           <MapLinkPolotsk />
         </Link>
@@ -57,10 +57,10 @@ function MainPageBuild() {
           новому.
         </article>
         <article className="articleMainPage">
-          Добро пожаловать в мир путешествий с интерактивной картой LMM по нашей
-          небольшой, но такой интересной, разнообразной и гостеприимной стране
-          со своей большой историей. Здесь каждый найдет для себя что либо по
-          душе.
+          Добро пожаловать в мир путешествий с интерактивной картой LiveMagicMap
+          по нашей небольшой, но такой интересной, разнообразной и гостеприимной
+          стране со своей большой историей. Здесь каждый найдет для себя что
+          либо по душе.
         </article>
       </div>
     </div>
